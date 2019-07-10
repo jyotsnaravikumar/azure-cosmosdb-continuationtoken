@@ -96,7 +96,6 @@ public class Main {
             System.out.println("count " + results.size());
             for (Document doc : results) {
                 JSONObject obj = new JSONObject(doc.toJson());
-                //System.out.println("json: " + obj.toString());
                 System.out.println("id: " + obj.getString("id"));
 
             }
