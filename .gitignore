@@ -28,5 +28,5 @@ hs_err_pid*
 *.iml
 .idea/cosmosdocument.iml
 target/*
-.idea/workspace.xml
+.idea/*
 
